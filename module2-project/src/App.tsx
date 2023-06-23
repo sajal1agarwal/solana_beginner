@@ -122,7 +122,7 @@ function App() {
           SystemProgram.transfer({
             fromPubkey: new PublicKey(pubKey),
             toPubkey: response.publicKey,
-            lamports: 1 * LAMPORTS_PER_SOL,
+            lamports: 2 * LAMPORTS_PER_SOL,
           })
         );
         const signature = await sendAndConfirmTransaction(connection, transaction, [Keypair.fromSecretKey(secKey)]);
