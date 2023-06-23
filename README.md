@@ -6,7 +6,7 @@ Create a front end with a small button titled “Create a new Solana account” 
 ### step2
 create another button that says - “Connect to Phantom Wallet”, which should connect to the Phantom Wallet if it exists, else point to a link where the user can install the extension.
 ### step3
-Once this step is completed, add a button called “Transfer to new wallet”. This button should trigger a transfer of 1 SOL (airdropped into the account you generated in step 1) to the account connected in Step 2.
+Once this step is completed, add a button called “Transfer to new wallet”. This button should trigger a transfer of 2 SOL (airdropped into the account you generated in step 1) to the account connected in Step 2.
 
 ## Getting Started 
 clone this repo 
